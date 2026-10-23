@@ -1,0 +1,48 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 3
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - legal
+  - website
+hosts:
+- host: api.sorrisopharma.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: sorrisopharma.com
+  role: api
+  relation: own
+- host: sorrisopharma.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - PrivacyPolicy
+  - Newsroom
+  serves: []
+  registrable_domain: sorrisopharma.com
+  role: legal
+  relation: own
+- host: www.sorrisopharma.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: sorrisopharma.com
+  role: website
+  relation: own

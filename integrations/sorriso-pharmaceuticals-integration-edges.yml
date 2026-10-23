@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/sorriso-pharmaceuticals/integrations
+- https://n8n.io/integrations/sorriso-pharmaceuticals/
+- https://composio.dev/toolkits/sorriso-pharmaceuticals
+- https://monid.ai/tools/sorriso-pharmaceuticals
+checked:
+- https://composio.dev/toolkits/sorriso-pharmaceuticals
+- https://monid.ai/tools/sorriso-pharmaceuticals
+- https://n8n.io/integrations/sorriso-pharmaceuticals/
+- https://zapier.com/apps/sorriso-pharmaceuticals/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
